@@ -11,30 +11,7 @@ public class player : MonoBehaviour
     {
         
     }
- private void OnTriggerEnter(Collider other)
-    {   
-            if (other.gameObject.tag == "Right")
-            {
-                Debug.Log("in1");
-                GameFlag.changeflag = 1;
-            }
-            else if (other.gameObject.tag == "Left")
-            {
-                Debug.Log("in2");
-                GameFlag.changeflag = 2;
-            }
-            else if (other.gameObject.tag == "Up")
-            {
-                Debug.Log("in3");
-                GameFlag.changeflag = 3;
-            }
-            else if (other.gameObject.tag == "Down")
-            {
-                Debug.Log("in4");
-                GameFlag.changeflag = 4;
-            }
-     
-    }
+
     // Update is called once per frame
     void Update()
     {
